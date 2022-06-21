@@ -1,0 +1,28 @@
+\documentclass{socyti}
+\addbibresource{references.bib} %Imports bibliography file
+
+% Document Variables
+\title{Violence-Inducing Behaviour Prevention in Social-Cyber Space of Local Communities}
+\author[1]{Author Authorson}
+\author[2]{Author Author}
+\affil[1]{Western Norway Research Institute}
+\affil[2]{University of Oslo}
+\date{\today}
+\deliverable{X.Y}
+\subtitle{Title}
+\annotation{ANNOTATION}
+\wpnumber{NUMBER}
+
+% Document
+\begin{document}
+    \maketitle
+    \tableofcontents
+    \newpage
+    \pagenumbering{arabic}
+    \setcounter{page}{1}
+    \input{sections/first-section.tex}
+
+    \newpage
+    \printbibliography
+    \pagenumbering{gobble}
+\end{document}
